@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41E55E7819201BE800A2A0E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E55E7719201BE800A2A0E2 /* Foundation.framework */; };
+		41E55E7A19201BE800A2A0E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E55E7919201BE800A2A0E2 /* CoreGraphics.framework */; };
+		41E55E7C19201BE800A2A0E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E55E7B19201BE800A2A0E2 /* UIKit.framework */; };
+		41E55E8219201BE800A2A0E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41E55E8019201BE800A2A0E2 /* InfoPlist.strings */; };
+		41E55E8419201BE800A2A0E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E55E8319201BE800A2A0E2 /* main.m */; };
+		41E55E8819201BE800A2A0E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E55E8719201BE800A2A0E2 /* AppDelegate.m */; };
+		41E55E8B19201BE800A2A0E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E55E8919201BE800A2A0E2 /* Main.storyboard */; };
+		41E55E8E19201BE800A2A0E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E55E8D19201BE800A2A0E2 /* ViewController.m */; };
+		41E55E9019201BE800A2A0E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E55E8F19201BE800A2A0E2 /* Images.xcassets */; };
+		41E55E9719201BE800A2A0E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E55E9619201BE800A2A0E2 /* XCTest.framework */; };
+		41E55E9819201BE800A2A0E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E55E7719201BE800A2A0E2 /* Foundation.framework */; };
+		41E55E9919201BE800A2A0E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E55E7B19201BE800A2A0E2 /* UIKit.framework */; };
+		41E55EA119201BE800A2A0E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41E55E9F19201BE800A2A0E2 /* InfoPlist.strings */; };
+		41E55EA319201BE800A2A0E2 /* Cube_Juke_ProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E55EA219201BE800A2A0E2 /* Cube_Juke_ProTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41E55E9A19201BE800A2A0E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E55E6C19201BE800A2A0E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E55E7319201BE800A2A0E2;
+			remoteInfo = "Cube Juke Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41E55E7419201BE800A2A0E2 /* Cube Juke Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cube Juke Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E55E7719201BE800A2A0E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41E55E7919201BE800A2A0E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41E55E7B19201BE800A2A0E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41E55E7F19201BE800A2A0E2 /* Cube Juke Pro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cube Juke Pro-Info.plist"; sourceTree = "<group>"; };
+		41E55E8119201BE800A2A0E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41E55E8319201BE800A2A0E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41E55E8519201BE800A2A0E2 /* Cube Juke Pro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cube Juke Pro-Prefix.pch"; sourceTree = "<group>"; };
+		41E55E8619201BE800A2A0E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41E55E8719201BE800A2A0E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41E55E8A19201BE800A2A0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41E55E8C19201BE800A2A0E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41E55E8D19201BE800A2A0E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41E55E8F19201BE800A2A0E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41E55E9519201BE800A2A0E2 /* Cube Juke ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cube Juke ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E55E9619201BE800A2A0E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		41E55E9E19201BE800A2A0E2 /* Cube Juke ProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cube Juke ProTests-Info.plist"; sourceTree = "<group>"; };
+		41E55EA019201BE800A2A0E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41E55EA219201BE800A2A0E2 /* Cube_Juke_ProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cube_Juke_ProTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41E55E7119201BE800A2A0E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E55E7A19201BE800A2A0E2 /* CoreGraphics.framework in Frameworks */,
+				41E55E7C19201BE800A2A0E2 /* UIKit.framework in Frameworks */,
+				41E55E7819201BE800A2A0E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E55E9219201BE800A2A0E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E55E9719201BE800A2A0E2 /* XCTest.framework in Frameworks */,
+				41E55E9919201BE800A2A0E2 /* UIKit.framework in Frameworks */,
+				41E55E9819201BE800A2A0E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E55E6B19201BE800A2A0E2 = {
+			isa = PBXGroup;
+			children = (
+				41E55E7D19201BE800A2A0E2 /* Cube Juke Pro */,
+				41E55E9C19201BE800A2A0E2 /* Cube Juke ProTests */,
+				41E55E7619201BE800A2A0E2 /* Frameworks */,
+				41E55E7519201BE800A2A0E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41E55E7519201BE800A2A0E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41E55E7419201BE800A2A0E2 /* Cube Juke Pro.app */,
+				41E55E9519201BE800A2A0E2 /* Cube Juke ProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41E55E7619201BE800A2A0E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41E55E7719201BE800A2A0E2 /* Foundation.framework */,
+				41E55E7919201BE800A2A0E2 /* CoreGraphics.framework */,
+				41E55E7B19201BE800A2A0E2 /* UIKit.framework */,
+				41E55E9619201BE800A2A0E2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41E55E7D19201BE800A2A0E2 /* Cube Juke Pro */ = {
+			isa = PBXGroup;
+			children = (
+				41E55E8619201BE800A2A0E2 /* AppDelegate.h */,
+				41E55E8719201BE800A2A0E2 /* AppDelegate.m */,
+				41E55E8919201BE800A2A0E2 /* Main.storyboard */,
+				41E55E8C19201BE800A2A0E2 /* ViewController.h */,
+				41E55E8D19201BE800A2A0E2 /* ViewController.m */,
+				41E55E8F19201BE800A2A0E2 /* Images.xcassets */,
+				41E55E7E19201BE800A2A0E2 /* Supporting Files */,
+			);
+			path = "Cube Juke Pro";
+			sourceTree = "<group>";
+		};
+		41E55E7E19201BE800A2A0E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41E55E7F19201BE800A2A0E2 /* Cube Juke Pro-Info.plist */,
+				41E55E8019201BE800A2A0E2 /* InfoPlist.strings */,
+				41E55E8319201BE800A2A0E2 /* main.m */,
+				41E55E8519201BE800A2A0E2 /* Cube Juke Pro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41E55E9C19201BE800A2A0E2 /* Cube Juke ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				41E55EA219201BE800A2A0E2 /* Cube_Juke_ProTests.m */,
+				41E55E9D19201BE800A2A0E2 /* Supporting Files */,
+			);
+			path = "Cube Juke ProTests";
+			sourceTree = "<group>";
+		};
+		41E55E9D19201BE800A2A0E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41E55E9E19201BE800A2A0E2 /* Cube Juke ProTests-Info.plist */,
+				41E55E9F19201BE800A2A0E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41E55E7319201BE800A2A0E2 /* Cube Juke Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E55EA619201BE800A2A0E2 /* Build configuration list for PBXNativeTarget "Cube Juke Pro" */;
+			buildPhases = (
+				41E55E7019201BE800A2A0E2 /* Sources */,
+				41E55E7119201BE800A2A0E2 /* Frameworks */,
+				41E55E7219201BE800A2A0E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cube Juke Pro";
+			productName = "Cube Juke Pro";
+			productReference = 41E55E7419201BE800A2A0E2 /* Cube Juke Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41E55E9419201BE800A2A0E2 /* Cube Juke ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E55EA919201BE800A2A0E2 /* Build configuration list for PBXNativeTarget "Cube Juke ProTests" */;
+			buildPhases = (
+				41E55E9119201BE800A2A0E2 /* Sources */,
+				41E55E9219201BE800A2A0E2 /* Frameworks */,
+				41E55E9319201BE800A2A0E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E55E9B19201BE800A2A0E2 /* PBXTargetDependency */,
+			);
+			name = "Cube Juke ProTests";
+			productName = "Cube Juke ProTests";
+			productReference = 41E55E9519201BE800A2A0E2 /* Cube Juke ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41E55E6C19201BE800A2A0E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mitchell Patin";
+				TargetAttributes = {
+					41E55E9419201BE800A2A0E2 = {
+						TestTargetID = 41E55E7319201BE800A2A0E2;
+					};
+				};
+			};
+			buildConfigurationList = 41E55E6F19201BE800A2A0E2 /* Build configuration list for PBXProject "Cube Juke Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41E55E6B19201BE800A2A0E2;
+			productRefGroup = 41E55E7519201BE800A2A0E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41E55E7319201BE800A2A0E2 /* Cube Juke Pro */,
+				41E55E9419201BE800A2A0E2 /* Cube Juke ProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41E55E7219201BE800A2A0E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E55E9019201BE800A2A0E2 /* Images.xcassets in Resources */,
+				41E55E8219201BE800A2A0E2 /* InfoPlist.strings in Resources */,
+				41E55E8B19201BE800A2A0E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E55E9319201BE800A2A0E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E55EA119201BE800A2A0E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41E55E7019201BE800A2A0E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E55E8E19201BE800A2A0E2 /* ViewController.m in Sources */,
+				41E55E8819201BE800A2A0E2 /* AppDelegate.m in Sources */,
+				41E55E8419201BE800A2A0E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E55E9119201BE800A2A0E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E55EA319201BE800A2A0E2 /* Cube_Juke_ProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41E55E9B19201BE800A2A0E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E55E7319201BE800A2A0E2 /* Cube Juke Pro */;
+			targetProxy = 41E55E9A19201BE800A2A0E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41E55E8019201BE800A2A0E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E55E8119201BE800A2A0E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41E55E8919201BE800A2A0E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E55E8A19201BE800A2A0E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41E55E9F19201BE800A2A0E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E55EA019201BE800A2A0E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41E55EA419201BE800A2A0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41E55EA519201BE800A2A0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41E55EA719201BE800A2A0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cube Juke Pro/Cube Juke Pro-Prefix.pch";
+				INFOPLIST_FILE = "Cube Juke Pro/Cube Juke Pro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41E55EA819201BE800A2A0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cube Juke Pro/Cube Juke Pro-Prefix.pch";
+				INFOPLIST_FILE = "Cube Juke Pro/Cube Juke Pro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41E55EAA19201BE800A2A0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cube Juke Pro.app/Cube Juke Pro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cube Juke Pro/Cube Juke Pro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cube Juke ProTests/Cube Juke ProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		41E55EAB19201BE800A2A0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cube Juke Pro.app/Cube Juke Pro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cube Juke Pro/Cube Juke Pro-Prefix.pch";
+				INFOPLIST_FILE = "Cube Juke ProTests/Cube Juke ProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41E55E6F19201BE800A2A0E2 /* Build configuration list for PBXProject "Cube Juke Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E55EA419201BE800A2A0E2 /* Debug */,
+				41E55EA519201BE800A2A0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E55EA619201BE800A2A0E2 /* Build configuration list for PBXNativeTarget "Cube Juke Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E55EA719201BE800A2A0E2 /* Debug */,
+				41E55EA819201BE800A2A0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41E55EA919201BE800A2A0E2 /* Build configuration list for PBXNativeTarget "Cube Juke ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E55EAA19201BE800A2A0E2 /* Debug */,
+				41E55EAB19201BE800A2A0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41E55E6C19201BE800A2A0E2 /* Project object */;
+}
